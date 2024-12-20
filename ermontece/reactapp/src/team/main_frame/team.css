@@ -1,0 +1,150 @@
+.team {
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.team-header-grid {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr;
+
+}
+
+.team-dots {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+    display: inline-grid;
+    height: 100%;
+    width: 100%;
+    grid-template-columns: repeat(7, 5px) 40%;
+    grid-template-rows: 1fr 2fr;
+    align-self: center;
+}
+
+.team-header-grid h1 {
+    font-size: 5vw;
+    padding-bottom: 60px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: start;
+    background: linear-gradient(112.54deg, #39E639 35.34%, #9AEB9A 106.84%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.team-dot {
+    height: 5px;
+    width: 5px;
+    background-color: #39e43a;
+    align-self: end;
+}
+
+.team-grid-line {
+    display: grid;
+    align-self: end;
+    grid-template-rows: auto 5px auto;
+}
+
+.team-line {
+    background-color: #39e43a;
+}
+
+.team-vertical-line {
+    grid-column-start: 8 ;
+    grid-column-end: 9;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    border-right: 5px solid #39e43a;
+}
+
+/*}*/
+.team-grid-row1 {
+    display: grid;
+    grid-template-columns: auto auto auto 3vw auto auto auto 3vw auto auto auto;
+    grid-template-areas:
+    "b b b b b b b b b b b"
+    "c c c d e e e f g g g"
+    "c c c d e e e f g g g"
+    "c c c d e e e f g g g"
+    "h h h h h h h h h h h";
+
+}
+
+.team-grid-row2 {
+    display: grid;
+    grid-template-columns: auto auto 3vw auto auto 3vw auto auto 3vw auto auto;
+    grid-template-areas:
+    "i i o p p l k k s j j"
+    "i i o p p l k k s j j"
+    "i i o p p l k k s j j";
+}
+
+.team-grid-row3 {
+    display: grid;
+
+}
+
+.vl1 {
+    grid-area: b;
+    grid-column: 2/3;
+    align-self: center;
+    height: 50px;
+    border-right: 5px solid #39e43a;
+}
+
+.vl2 {
+    grid-area: h;
+    grid-column: 10/11;
+    align-self: center;
+    height: 50px;
+    border-right: 5px solid #39e43a;
+}
+
+.hl1, .hl2 {
+    width: 100%;
+    /*height: 5px;*/
+    border-bottom: 5px solid #39e43a;
+}
+
+.hl1 {
+    grid-area: d;
+    grid-row: 3/4;
+
+}
+
+.hl2 {
+    grid-area: f;
+    grid-row: 3/4;
+}
+
+.hl3, .hl4, .hl5 {
+    width: 100%;
+    /*height: 5px;*/
+    border-bottom: 5px solid #39e43a;
+    grid-row: 2/3;
+}
+
+.hl3 {
+    grid-area: o;
+    grid-row: 2/3;
+
+}
+
+.hl4 {
+    grid-area: l;
+    grid-row: 2/3;
+
+}
+
+.hl5 {
+    grid-area: s;
+    grid-row: 2/3;
+
+}
+
+.team-grid {
+    margin-bottom: 200px;
+}

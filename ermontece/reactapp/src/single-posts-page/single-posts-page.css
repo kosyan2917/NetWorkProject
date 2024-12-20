@@ -1,0 +1,83 @@
+.single-post-header {
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+
+.single-post {
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 50px;
+}
+
+.single-post-date {
+    width: 12%;
+    font-size: 1vw;
+    height: 1.2vw;
+}
+
+.single-post p {
+    padding: 0;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-weight: 400;
+    font-size: 1.2vw;
+    color: white;
+    background: none;
+}
+
+.single-post img {
+    max-width: 100%;
+    height: auto !important;
+}
+
+.single-post h1 {
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-weight: 700;
+    font-size: 4vw;
+    background: linear-gradient(to right, #39E639 20.34%, #9AEB9A 106.84%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.single-post h2 {
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-weight: 700;
+    font-size: 2vw;
+    background: linear-gradient(to right, #39E639 20.34%, #9AEB9A 106.84%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.single-post h6 {
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-weight: 700;
+    font-size: 1vw;
+    font-style: italic;
+    background: linear-gradient(to right, #39E639 20.34%, #9AEB9A 106.84%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nav-el {
+    width: 190px;
+}
+
+.full {
+    width: 100% !important;
+    height: auto ;
+}
+
+.half {
+    width: 50% !important;
+    height: auto;
+}
+
+.third {
+    width: 33% !important;
+    height: auto;
+}
+
+.two-thirds {
+    width: 66% !important;
+    height: auto;
+}
+

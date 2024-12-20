@@ -1,0 +1,125 @@
+.game-grid {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+}
+
+.game-grid div {
+    padding-left: 5%;
+}
+
+.game-header *{
+    text-align: start;
+    font-family: 'Gilroy-Regular', sans-serif;
+    color: black;
+    font-weight: 700;
+    font-size: 5vw;
+}
+
+.game-header {
+    padding-top: 2%
+}
+
+.game-description {
+    text-align: start;
+    font-family: 'Gilroy-Bold', sans-serif !important;
+    font-weight: 800 !important;
+    line-height: 1.2;
+    color: black;
+    width: 60%;
+}
+
+.game-description p {
+    font-size: 1.2vw;
+}
+
+.game-button {
+    padding-bottom:5%;
+    display: flex;
+}
+
+.game-button button {
+    align-self: start;
+    background-color: black;
+    border: #39e43a 3px solid;
+    outline: black 1px solid;
+    width: 25%;
+    height: 150%;
+    justify-content: center;
+}
+
+.game-button button:hover {
+    background: linear-gradient(to right, black 20.34%, #39E639 40.84%);
+    text-shadow: 0 0 0  black;
+}
+
+.game-button button:focus {
+    background-color: black;
+    border: #39e43a 3px solid;
+    outline: black 1px solid;
+    animation-duration: 0.4s;
+    animation-name: games-more-button;
+    }
+
+.game-button button:active {
+
+    background: linear-gradient(to right, black 20.34%, #39E639 40.84%);
+    text-shadow: 0 0 0  black;
+}
+
+.game-button button span {
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 1.5vw;
+    font-weight: 800;
+    background: linear-gradient(to right, #39E639 48.34%, #9AEB9A 106.84%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@keyframes games-more-button {
+    0% {
+        background: linear-gradient(to right, black 20.34%, #39E639 40.84%);
+    }
+    6% {
+        background: linear-gradient(to right, black 20.34%, #39E639 45.84%);
+    }
+    12% {
+        background: linear-gradient(to right, black 20.34%, #39E639 50.84%);
+    }
+    25% {
+        background: linear-gradient(to right, black 20.34%, #39E639 60.84%);
+    }
+    37% {
+        background: linear-gradient(to right, black 20.34%, #39E639 70.84%);
+    }
+    50% {
+        background: linear-gradient(to right, black 20.34%, #39E639 80.84%);
+    }
+    67% {
+        background: linear-gradient(to right, black 20.34%, #39E639 85.84%);
+    }
+    75% {
+        background: linear-gradient(to right, black 20.34%, #39E639 90.84%);
+    }
+
+    81% {
+        background: linear-gradient(to right, black 20.34%, #39E639 95.84%);
+    }
+
+    87% {
+        background: linear-gradient(to right, black 20.34%, #39E639 100.84%);
+    }
+    100% {
+        background: linear-gradient(to right, black 20.34%, #39E639 4000.84%);
+    }
+
+}
+
+@keyframes text-animation {
+    50% {
+        background: linear-gradient(to right, #39E639 48.34%, #9AEB9A 106.84%);
+    }
+}

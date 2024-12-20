@@ -1,0 +1,45 @@
+
+.card-header {
+    display: grid;
+    z-index: 2;
+    align-items: start;
+    justify-items: start;
+    position: absolute;
+    bottom: 20px;
+    border-bottom: none;
+    padding-left: 5%;
+    height: 19vw;
+    text-align: start;
+}
+
+.card-header h1 {
+
+    -webkit-text-fill-color: white;
+}
+
+.card-header button {
+    width:30%;
+    font-size: 1.5vw;
+    height: max(30px, 3vw);
+    background: white none;
+    border: 3px solid black;
+    outline: 1px solid white;
+    -webkit-text-fill-color: black;
+
+}
+
+.card-header p {
+    font-size: 1.2vw;
+    width: 50%;
+    justify-content: start;
+    padding: 0;
+    color:white;
+    background: none;
+    -webkit-text-fill-color: white;
+}
+
+.card-image {
+    position: relative;
+    z-index: 1;
+}
+
